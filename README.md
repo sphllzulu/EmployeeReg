@@ -1,4 +1,5 @@
 # RegiPro
+Follow the link for the sketches: https://drive.google.com/file/d/18AlN6B4dcHC_LkZAJ_3YH8HqX1eaJjJ7/view?usp=sharing
 #Login Details for the app are email === 'john.doe@example.com' && password === 'password123';
 
 Employee Registration Activity - README
