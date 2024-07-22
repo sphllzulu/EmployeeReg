@@ -1,0 +1,60 @@
+/* Responsive table styles */
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .responsive-table th, .responsive-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .responsive-table th {
+    background-color: #f2f2f2;
+  }
+  
+  
+  .edit-form {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightgray;
+  }
+  
+  .edit-form input, .edit-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .responsive-table, .edit-form {
+      font-size: 14px;
+    }
+  
+    .responsive-table th, .responsive-table td {
+      padding: 8px;
+    }
+    
+    .edit-form button {
+      width: 100%;
+    }
+  }
+  

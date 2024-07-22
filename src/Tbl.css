@@ -1,0 +1,103 @@
+.employee-count {
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+  }
+
+  .tableWrapper{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 40px;
+}
+table th, table td{
+    border-left: 1px solid lightblue;
+    background-color: lightgray;
+    padding: 20px 40px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+input{
+    padding: 5px;
+    width: 150px;
+    /* margin-right: 5px; */
+}
+
+.add{
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    color:lightgray;
+}
+
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .responsive-table th, .responsive-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .responsive-table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+ 
+  @media (max-width: 600px) {
+    .responsive-table thead {
+      display: none;
+    }
+  
+    .responsive-table tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .responsive-table td {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-bottom: none;
+    }
+  
+    .responsive-table td:last-child {
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .responsive-table td::before {
+      content: attr(data-label);
+      font-weight: bold;
+    }
+  }
+  
+
+  .addForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .addForm input, .addForm button {
+    flex: 1 1 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .addForm input {
+      flex: 1 1 auto;
+    }
+  }
+  
+  

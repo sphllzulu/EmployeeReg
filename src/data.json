@@ -1,0 +1,34 @@
+[
+    {   
+        "image":"/person.png",
+        "name": "Siphelele Zulu",
+        "id":1,
+        "email":"sphllzulu@gmail.com",
+        "phone":"1234567789",
+        "position":"Snr Engineer",
+        "status":"Active"
+        
+
+    },
+    {   
+        "image":"/person.png",
+        "name": "Phindile Zulu",
+        "id":2,
+        "email":"phindyz@gmail.com",
+        "phone":"1234567789",
+        "position":"Snr Engineer",
+        "status":"Inactive"
+
+
+    },
+    {   
+        "image":"/person.png",
+        "name": "Sabelo Zulu",
+        "id":3,
+        "email":"sabeloz@gmail.com",
+        "phone":"1234567789",
+        "position":"Snr Engineer",
+        "status":"Active"
+
+    }
+]

@@ -1,0 +1,43 @@
+.bottom-navbar {
+    position:sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color:teal; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 20px; 
+    
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .logo h1 {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    margin-right: 20px;
+  }
+  
+  .list a {
+    text-decoration: none; 
+    color: #333;
+  }
+  
+  .logout {
+    text-align: right; 
+  }
