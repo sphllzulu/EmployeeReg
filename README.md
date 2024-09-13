@@ -67,5 +67,14 @@ To access the application, use the following credentials:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sphllzulu/EmployeeReg.git
+
+2. Install dependencies
+   ```bash
+   npm install
+
+3. Install dependencies
+   ```bash
+   npm run dev  
+   
 
