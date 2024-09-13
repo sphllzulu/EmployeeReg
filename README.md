@@ -1,35 +1,71 @@
-# RegiPro
-Follow the link for the sketches: https://drive.google.com/file/d/18AlN6B4dcHC_LkZAJ_3YH8HqX1eaJjJ7/view?usp=sharing
-#Login Details for the app are email === 'john.doe@example.com' && password === 'password123';
+# Employee Registration Activity
 
-Employee Registration Activity - README
-This document outlines the functionalities and design considerations for an Employee Registration Activity web application.
+This Employee Registration Activity web application allows users to manage employee records, including features for creating, reading, updating, and deleting (CRUD) employee information. The application also supports searching, filtering, and data persistence.
 
-Features:
+## Features
 
-Employee Management:
-CRUD Operations:
-Create: Users can add new employees with details like name, email, phone number, image, position, and a unique ID.
-Read: Users can view a list of all employees.
-Update: Users can edit existing employee details.
-Delete: Users can delete employees from the list.
-Search: Users can search for employees by their ID.
-Employee Status:
-The application allows for filtering employees by their current status (active or left the organization).
-Data Persistence:
-Uses local storage to store and retrieve employee data, ensuring information remains persistent across page refreshes.
-Responsiveness:
+### 1. **Employee Management**
+   - **CRUD Operations:**
+     - **Create**: Users can add new employees by entering their name, email, phone number, position, and uploading an image. A unique employee ID is also generated.
+     - **Read**: Users can view a list of all registered employees.
+     - **Update**: Users can edit details of existing employees.
+     - **Delete**: Users can delete employees from the list.
 
-The application should be designed to adapt and display correctly on various screen sizes (desktop, mobile, tablets).
-Mockup:
+   - **Search Functionality**:
+     - Users can search for employees by their unique ID.
 
-Option 1: Textual Mockup:
+   - **Employee Status**:
+     - The application allows users to filter employees based on their status (active or left the organization).
 
-Imagine a web page with the following sections:
+### 2. **Data Persistence**
+   - Employee data is saved in the browser's local storage, ensuring that employee information persists across page refreshes.
 
-Search Bar: A text input field where users can enter an employee ID to search.
-Employee List: A table displaying information like employee image, ID, name, email, phone number, position, and status (active/left).
-This table should be responsive and adjust layouts for smaller screens.
-Employee Status Filter: Buttons or options to filter the employee list by active or left the organization.
-Add Employee Form: A form with fields for entering new employee details (name, email, phone, image upload, position, and a unique ID generation option).
-Actions: Each employee entry in the list should have buttons for edit and delete functionalities.
+### 3. **Responsiveness**
+   - The application is designed to be responsive and adapts to different screen sizes such as desktop, mobile, and tablet. The layout adjusts accordingly to provide an optimal user experience on all devices.
+
+## Design and Mockup
+
+The application consists of the following sections:
+
+### 1. **Search Bar**
+   - A text input field where users can enter an employee ID to search for specific employees.
+
+### 2. **Employee List**
+   - A table that displays the following information for each employee:
+     - Employee Image
+     - ID
+     - Name
+     - Email
+     - Phone Number
+     - Position
+     - Status (Active or Left)
+   - The table is responsive and adjusts the layout for smaller screens.
+
+### 3. **Employee Status Filter**
+   - Options (such as buttons or dropdowns) allow users to filter the employee list based on their current status (Active or Left the organization).
+
+### 4. **Add Employee Form**
+   - A form where users can input new employee details:
+     - Name
+     - Email
+     - Phone Number
+     - Image Upload
+     - Position
+     - A unique employee ID is generated automatically.
+
+### 5. **Actions for Each Employee**
+   - Each employee entry in the list has buttons for editing or deleting the employee.
+
+## Login Details
+
+To access the application, use the following credentials:
+
+- **Email**: `john.doe@example.com`
+- **Password**: `password123`
+
+## Installation & Setup
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone <repository-url>
+
