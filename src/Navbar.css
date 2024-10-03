@@ -1,4 +1,4 @@
-
+/* 
  nav {
    display: flex; 
    justify-content: space-between; 
@@ -14,7 +14,7 @@
  }
  
  .list1 {
-   list-style: none; 
+  list-style-type: none;
    padding: 0; 
    margin: 0; 
    display: flex; 
@@ -22,6 +22,8 @@
  
  .list1 li {
    margin-right: 20px; 
+   list-style-type: none;
+   text-decoration: none;
  }
  
  
@@ -33,4 +35,109 @@
    .logo1 {
      flex-grow: 1; 
    }
- }
+ } */
+
+ /* General Navbar Styling */
+/* General Navbar Styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+/* Logo Styling */
+.logo1 {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 h1 {
+  margin-left: 10px;
+  color: black;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+}
+
+/* List Styling */
+.list1 {
+  display: flex;
+  list-style: none;
+}
+
+.list1 li {
+  margin-right: 20px;
+}
+
+.list1 li:last-child {
+  margin-right: 0;
+}
+
+/* Custom Link Styling */
+.list1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.list1 a:hover {
+  color: #555; /* Hover color */
+}
+
+/* Logout Icon Styling */
+nav div:last-child a {
+  color: black;
+}
+
+nav div:last-child a:hover {
+  color: #555;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  /* Stack the navbar items vertically */
+  
+
+  .list1 {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .list1 li {
+    margin: 10px 0;
+  }
+
+  .list1 a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  /* Hamburger menu becomes visible */
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  /* Show the menu when it's clicked */
+  .list1.show {
+    display: flex;
+  }
+}
