@@ -84,11 +84,11 @@ input{
   }
   
 
-  .addForm {
+  /* .addForm {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  }
+  } */
   
   .addForm input, .addForm button {
     flex: 1 1 100%;
@@ -102,7 +102,8 @@ input{
   
   .popup {
     position: fixed;
-    top: 20%;
+    height: 90%;
+    top:40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
@@ -132,4 +133,193 @@ input{
     cursor: pointer;
     color: red;
   }
+
+  .addEmployeeBtn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addEmployeeBtn:hover {
+    background-color: #555;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+    transition: border 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border: 1px solid #000;
+    outline: none;
+  }
+  
+  /* General Form Styling */
+.addForm {
+  background-color: #000;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* max-width: 400px; */
+
+  margin:  auto;
+  color: #fff;
+}
+
+.addForm input,
+.addForm button {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.addForm input[type="file"] {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+.addForm input::placeholder {
+  color: #ccc;
+}
+
+.addForm input:focus {
+  outline: none;
+  border: 2px solid #555;
+}
+
+.addForm button {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.addForm button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .addForm {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .addForm input,
+  .addForm button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .addForm {
+    padding: 10px;
+  }
+
+  .addForm input,
+  .addForm button {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+
+
+
+  /*
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .responsive-table th, .responsive-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    color: #000;
+  }
+  
+  .responsive-table th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .responsive-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .employee-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  button.edit, button.delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.edit:hover {
+    color: #4CAF50;
+  }
+  
+  button.delete:hover {
+    color: #f44336;
+  }
+  
+  .confirm-delete, .cancel-delete {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .confirm-delete {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-delete:hover {
+    background-color: #555;
+  }
+  
+  .cancel-delete {
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-delete:hover {
+    background-color: #aaa;
+  }
+  
+  .popup-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+  }
+   */
   
