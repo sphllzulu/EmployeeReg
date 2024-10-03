@@ -1,16 +1,19 @@
 import './Navbar.css'
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 import { MdAppRegistration } from "react-icons/md";
 import { IoLogOutSharp } from "react-icons/io5";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 import React from 'react'
 
 const Navbar = () => {
+  
+
   return (
     
       <nav>
         <div className='logo1'>
-        <MdAppRegistration style={{fontSize:'30px'}} />
+        <MdAppRegistration style={{fontSize:'30px', color:'black'}} />
         <h1>Regipro</h1>
         </div>
        <ul className='list1'>
@@ -29,6 +32,7 @@ const Navbar = () => {
        <div>
        <Link to="/"><IoLogOutSharp style={{fontSize:'40px'}} /></Link>
        </div>
+       
      </nav>
     
   )
