@@ -2,6 +2,9 @@
 
 This Employee Registration Activity web application allows users to manage employee records, including features for creating, reading, updating, and deleting (CRUD) employee information. The application also supports searching, filtering, and data persistence.
 
+## Screenshot
+![Image](https://github.com/user-attachments/assets/965ba8bf-d40d-4563-a53a-66a987baeb4c)
+
 ## Features
 
 ### 1. **Employee Management**
